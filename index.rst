@@ -10,7 +10,11 @@ Welcome to CryoGrid Community Model's documentation!
    :maxdepth: 3
    :caption: Contents:
 
-   source/intro
+   source/Quick start
+   source/CryoGrid code structure
+   source/Adding new modules and functionality to CryoGrid
+   source/Categories of CryoGrid classes
+   source/Detailed documentation
    
 
 Indices and tables
