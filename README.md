@@ -1,5 +1,5 @@
 # CryoGridDocumentation
-Documentation of the Community version of CryoGrid
+Documentation of the Community version of CryoGrid available at https://cryogrid-documentation.readthedocs.io/en/latest/#
 
 
 ## How to participate to the documentation
