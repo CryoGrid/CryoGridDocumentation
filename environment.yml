@@ -1,0 +1,51 @@
+name: docu_sphinx
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - ca-certificates=2020.10.14=0
+  - certifi=2020.11.8=py39h06a4308_0
+  - ld_impl_linux-64=2.33.1=h53a641e_7
+  - libedit=3.1.20191231=h14c3975_1
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=9.1.0=hdf63c60_0
+  - libstdcxx-ng=9.1.0=hdf63c60_0
+  - ncurses=6.2=he6710b0_1
+  - openssl=1.1.1h=h7b6447c_0
+  - pip=20.3=py39h06a4308_0
+  - python=3.9.0=hdb3f193_2
+  - readline=8.0=h7b6447c_0
+  - setuptools=50.3.2=py39h06a4308_2
+  - sqlite=3.33.0=h62c20be_0
+  - tk=8.6.10=hbc83047_0
+  - tzdata=2020d=h14c3975_0
+  - wheel=0.36.0=pyhd3eb1b0_0
+  - xz=5.2.5=h7b6447c_0
+  - zlib=1.2.11=h7b6447c_3
+  - pip:
+    - alabaster==0.7.12
+    - babel==2.9.0
+    - chardet==3.0.4
+    - commonmark==0.9.1
+    - docutils==0.16
+    - idna==2.10
+    - imagesize==1.2.0
+    - jinja2==2.11.2
+    - markupsafe==1.1.1
+    - packaging==20.7
+    - pygments==2.7.2
+    - pyparsing==2.4.7
+    - pytz==2020.4
+    - recommonmark==0.6.0
+    - requests==2.25.0
+    - snowballstemmer==2.0.0
+    - sphinx==3.3.1
+    - sphinx-rtd-theme==0.5.0
+    - sphinxcontrib-applehelp==1.0.2
+    - sphinxcontrib-devhelp==1.0.2
+    - sphinxcontrib-htmlhelp==1.0.3
+    - sphinxcontrib-jsmath==1.0.1
+    - sphinxcontrib-qthelp==1.0.3
+    - sphinxcontrib-serializinghtml==1.1.4
+    - urllib3==1.26.2
+prefix: /home/arcticsnow/miniconda3/envs/docu_sphinx
