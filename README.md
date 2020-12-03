@@ -1,3 +1,5 @@
+[![Documentation Status](https://readthedocs.org/projects/cryogrid-documentation/badge/?version=latest)](https://cryogrid-documentation.readthedocs.io/en/latest/?badge=latest)
+
 # CryoGridDocumentation
 Documentation of the Community version of CryoGrid available at https://cryogrid-documentation.readthedocs.io/en/latest/#
 
