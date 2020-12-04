@@ -14,7 +14,7 @@ If you want to request rights for contribution, please contact **XXXXXXXXX**
 
 ## How to add content
 
-The documentation is written in markup language reStructuredText `.rst` or [Markdown](https://www.markdownguide.org/basic-syntax/)(`.md`). rST is the preferred markup language, but both are supported as argued in [this blog post](https://www.ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/).
+The documentation is written in markup language reStructuredText `.rst` or [Markdown](https://www.markdownguide.org/basic-syntax/)(`.md`). rST is the preferred markup language as argued in [this blog post](https://www.ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/), but both are supported.
 
 ### Directly online
 This works if the CryoGrid Project Administrator have added you as a Contributor. Then you will have the possibility to edit directly the file contents on github
@@ -44,13 +44,16 @@ conda activate docu_env
 conda env update -n docu_env --file environment.yml
 ```
 
-#### Test building the documentation laclly
-```
+#### Test building the documentation localy
+```shell
 # go the documentation folder
 cd CryoGridDocumentation
 
 # build the documentation locally on your machine
 make html
+
+# open the new localy built documentation
+firefox _build/html/index.html
 ```
 If no error occured during the build then, open the file `_build/html/index.htm` with your browser. If you're happy with your changes, **commit and push** the project to the github documentation. readthedocs.org will build automatically the documentation with the changes you just pushed.
 
@@ -70,7 +73,10 @@ Indicate **Sphinx** to seek for this new file by adding in the file `index.rst`:
 
    source/intro
    source/ add here you next content. One file per page. 
+   
 ```
+As currently setup, the documentation can only have a tree depth of 3 levels. Add subfolder accordingly and reference into `index.rst`.
 
-
+### Export the Documentation
+You can export the documentation either as PDF or ePub file. In the bottom left corner of the documentation website you will find the option to do so. Enjoy!
 
